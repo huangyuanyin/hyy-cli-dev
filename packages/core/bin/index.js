@@ -1,3 +1,3 @@
 #! /usr/bin/env node
 
-console.log('hello hyy-cli-dev')
+console.log('hello hyy-cli-dev!!!')
