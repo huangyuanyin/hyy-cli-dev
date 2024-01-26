@@ -1,0 +1,29 @@
+{
+  "name": "@hyy-cli-dev/core",
+  "version": "1.0.6",
+  "description": "hyy-cli-dev core",
+  "author": "黄原寅 <3443718488@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "bin": {
+    "hyy-cli-dev": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Run testing from core\""
+  },
+  "dependencies": {
+    "@hyy-cli-dev/utils": "file:../../utils/utils"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "6184fc107ab3f2bbe0f8b381efd1d07f49b05736"
+}
