@@ -1,6 +1,6 @@
 {
   "name": "@hyy-cli-dev/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "hyy-cli-dev utils",
   "author": "黄原寅 <3443718488@qq.com>",
   "homepage": "",
@@ -15,6 +15,5 @@
   ],
   "scripts": {
     "test": "echo \"Run testing from utils\""
-  },
-  "dependencies": {}
+  }
 }
