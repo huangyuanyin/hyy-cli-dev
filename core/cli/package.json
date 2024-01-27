@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@hyy-cli-dev/utils": "file:../../utils/utils",
+    "@hyy-cli-dev/log": "file:../../utils/log",
     "import-local": "^3.1.0",
     "npmlog": "^7.0.1"
   },
