@@ -1,6 +1,9 @@
 #! /usr/bin/env node
 
-const utils = require('@hyy-cli-dev/utils')
+const importLocal = require('import-local')
 
-utils()
-console.log('hello hyy-cli-dev!!!')
+if (importLocal(__filename)) {
+  require('npmlog').info('cli', '正在使用 hyy-cli-dev 本地版本')
+} else {
+  require('../lib')(process.argv.slice(2))
+}

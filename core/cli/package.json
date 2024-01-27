@@ -5,9 +5,9 @@
   "author": "黄原寅 <3443718488@qq.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "lib/index.js",
   "bin": {
-    "hyy-cli-dev": "bin/index.js"
+    "hyy-cli-dev": "bin/core.js"
   },
   "directories": {
     "lib": "lib",
@@ -20,7 +20,9 @@
     "test": "echo \"Run testing from core\""
   },
   "dependencies": {
-    "@hyy-cli-dev/utils": "file:../../utils/utils"
+    "@hyy-cli-dev/utils": "file:../../utils/utils",
+    "import-local": "^3.1.0",
+    "npmlog": "^7.0.1"
   },
   "publishConfig": {
     "access": "public"
