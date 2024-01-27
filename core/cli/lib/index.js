@@ -20,3 +20,5 @@ function checkPkgVersion() {
   // log.verbose('debug', 'debug...')
   log.notice('cli', pkg.version)
 }
+
+function test() {}
