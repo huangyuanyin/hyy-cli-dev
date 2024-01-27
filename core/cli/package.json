@@ -1,6 +1,6 @@
 {
   "name": "@hyy-cli-dev/core",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "hyy-cli-dev core",
   "author": "黄原寅 <3443718488@qq.com>",
   "homepage": "",
@@ -20,8 +20,8 @@
     "test": "echo \"Run testing from core\""
   },
   "dependencies": {
-    "@hyy-cli-dev/utils": "file:../../utils/utils",
     "@hyy-cli-dev/log": "file:../../utils/log",
+    "@hyy-cli-dev/utils": "file:../../utils/utils",
     "import-local": "^3.1.0",
     "npmlog": "^7.0.1"
   },
