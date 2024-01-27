@@ -1,0 +1,35 @@
+{
+  "name": "@hyy-cli-dev/log",
+  "version": "1.0.7",
+  "description": "hyy-cli-dev log",
+  "keywords": [
+    "log"
+  ],
+  "author": "黄原寅 <3443718488@qq.com>",
+  "homepage": "https://github.com/huangyuanyin/hyy-cli-dev#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangyuanyin/hyy-cli-dev.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/huangyuanyin/hyy-cli-dev/issues"
+  },
+  "dependencies": {
+    "npmlog": "^7.0.1"
+  }
+}
