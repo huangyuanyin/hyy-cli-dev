@@ -9,6 +9,8 @@ module.exports = core
 // any -> .js
 const semver = require('semver')
 const colors = require('colors/safe')
+const userHome = require('user-home')
+const pathExists = require('path-exists')
 const log = require('@hyy-cli-dev/log')
 
 const constant = require('./const')
@@ -19,8 +21,16 @@ function core() {
     // checkNodeVersion()
     checkPkgVersion()
     checkRoot()
+    checkUserHome()
   } catch (e) {
     log.error(e.message)
+  }
+}
+
+function checkUserHome() {
+  console.log(userHome)
+  if (!userHome || !pathExists(userHome)) {
+    throw new Error(colors.red('当前登录用户主目录不存在！'))
   }
 }
 
